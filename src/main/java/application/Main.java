@@ -25,7 +25,7 @@ public class Main {
     private static void addInitialData() {
         Customer c = new Customer();
         c.setName("Bob");
-        c.setCustomerID(0);
+        c.setCustomerID(99);
         DummyDatabase.addCustomer(c);
         c.addParkingInfo(LocalDateTime.of(2017, 04, 30, 8, 12),
                 LocalDateTime.of(2017, 04, 30, 10, 45), 0);
@@ -36,7 +36,7 @@ public class Main {
 
         Customer k = new PremiumCustomer();
         k.setName("Alice");
-        k.setCustomerID(1);
+        k.setCustomerID(99);
         DummyDatabase.addCustomer(k);
 
         k.addParkingInfo(LocalDateTime.of(2017, 04, 10, 8, 12),

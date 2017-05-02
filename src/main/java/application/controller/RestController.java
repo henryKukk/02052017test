@@ -44,6 +44,11 @@ public class RestController {
         return null;
     }
 
+    @RequestMapping(value = "add_customer", method = RequestMethod.POST)
+    public @ResponseBody void addCustomer(@RequestBody Customer toAdd) {
+        DummyDatabase.addCustomer(toAdd);
+    }
+
     @RequestMapping(value = "get_user_parkings_details", method = RequestMethod.GET)
     public @ResponseBody
     ParkingList getUserParkingsDetails(@RequestParam int userID) {

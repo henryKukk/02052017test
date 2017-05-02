@@ -21,6 +21,7 @@ public class DummyDatabase {
     }
 
     public static void addCustomer(Customer customer) {
+        customer.setCustomerID(customers.size());
         customers.add(customer);
     }
 
