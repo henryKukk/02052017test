@@ -1,0 +1,26 @@
+.get_invoice {
+    margin-top: 10px;
+}
+
+span.title {
+    color: gray;
+    font-size: 17px;
+}
+
+span.content {
+    color: cornflowerblue;
+    font-size: 17px;
+}
+
+div.invoice_area {
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.main_heading {
+    text-align: center;
+}
+
+#button_container {
+    text-align: center;
+}
